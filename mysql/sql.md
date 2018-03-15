@@ -130,6 +130,10 @@ FROM your_table_name
 GROUP BY column_name
 HAVING aggregate_function(column_name)...;
 ```
+- 按照指定时间聚合数据
+```
+SELECT * FROM tablename where date_formate(date_column,'%Y-%m-%d')='xxxx-xx-xx' group by date_formate(date_column,'%Y-%m-%d')
+```
 
 - 同一个实例下跨库查询
 ```
