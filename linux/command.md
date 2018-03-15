@@ -170,7 +170,8 @@ whereis 文件名   或者是 find / -name 文件名
 
 #### 查找文件夹位置
 locate 文件夹名
-
+##### 查找包含指定内容的文件
+grep "xxxx" filename
 31. linux用户相关
 
 #### 用户相关
